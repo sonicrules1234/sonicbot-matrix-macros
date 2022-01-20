@@ -1,0 +1,18 @@
+[package]
+name = "sonicbot-matrix-macros"
+authors = ["Westly Ward <sonicrules1234@gmail.com>"]
+description = "Macros for internal use with sonicbot-matrix"
+license-file = "LICENSE"
+repository = "https://github.com/sonicrules1234/sonicbot-matrix-macros"
+readme = "README.md"
+homepage = "https://github.com/sonicrules1234/sonicbot-matrix-macros"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+glob = "0.3.0"
